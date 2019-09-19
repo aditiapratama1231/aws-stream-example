@@ -26,8 +26,7 @@
                         "is_in_stock": true
                     }
                 },
-                "custom_attributes": [
-                    {
+                "custom_attributes": [{
                         "attribute_code": "description",
                         "value": "desc value"
                     },
