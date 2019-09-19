@@ -7,6 +7,8 @@ This project was devided to be three sub folder :
 - `stream` to create or delete streaming name
 
 ## How to run ?
+Note : If you have already installed `Kinesalite` on local, please use that instead of using docker
+
 Build:
 - `docker build -t kinesis-local .` or you can use docker image in https://hub.docker.com/r/ruanbekker/kinesis-local
 
