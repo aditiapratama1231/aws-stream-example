@@ -22,7 +22,7 @@ Create or delete stream name :
 - delete : `./stream -action=delete`
 
 Produce and consume data (split the terminal to be 2 part, so you can see simulation of data stream):
-- Move to producer folder to produce/send data to kinesis and `go run produce.go`
+- Move to producer folder to produce/send data to kinesis and `go run produce.go`. In this folder, you will see `Data` folder, it contains data structure, just copy that to `data.json`.
 - Move to consumer folder to consume/get data from kinesis and `go run consume.go`
 
 GOOD LUCK :)
