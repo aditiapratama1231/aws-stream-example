@@ -17,12 +17,13 @@ Run and expose port 4567:
 
 Create or delete stream name :
 - Move to `stream` folder to create or delete stream name
-- `go build stream.go `
+- `go build stream.go ` to create new stream.
 - create : `./stream -action=create`
 - delete : `./stream -action=delete`
 
-Produce and consume data (split the terminal to be 2 part, so you can see simulation of data stream):
+After Create Stream 
+
+Send data stream :
 - Move to producer folder to produce/send data to kinesis and `go run produce.go`. In this folder, you will see `Data` folder, it contains data structure, just copy that to `data.json`.
-- Move to consumer folder to consume/get data from kinesis and `go run consume.go`
 
 GOOD LUCK :)
